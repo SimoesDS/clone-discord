@@ -13,8 +13,9 @@ const ServerList: React.FC = () => {
 
       <ServerButton />
       <ServerButton hasNotifications />
-      <ServerButton mentions={3} />
+      <ServerButton mentions={837} />
       <ServerButton />
+      <ServerButton hasNotifications />
       <ServerButton />
       <ServerButton />
       <ServerButton hasNotifications />
@@ -22,6 +23,9 @@ const ServerList: React.FC = () => {
       <ServerButton />
       <ServerButton />
       <ServerButton mentions={34} />
+      <ServerButton />
+      <ServerButton mentions={93} />
+      <ServerButton />
     </Container>
   );
 };
